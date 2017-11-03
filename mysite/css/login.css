@@ -1,0 +1,26 @@
+body
+{
+    background-image: url("../images/islamic-art.jpg");
+}
+h1
+{
+    color:white;
+    font-size:18px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.input-group
+{
+    margin-bottom:15px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.btn
+{
+    margin-bottom:15px;
+    margin-left:245px;
+    width:100px;
+    box-shadow:2px 5px 3px #000;
+}

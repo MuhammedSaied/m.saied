@@ -1,0 +1,324 @@
+body{
+    font-family: 'Inconsolata';
+     padding-top:81px;
+}
+
+.fix-alert{
+    width:auto;
+    text-align: center;
+}
+
+.new-tut h1{
+    font-weight: bold;
+}
+
+/* Start Styling Buttons for Slider*/
+#ps-btn{
+    background-color: #337ab7;
+    box-shadow: 0px 0px 30px #FFF;
+}
+#ps-btn:hover{
+    box-shadow: 0px 0px 30px #3D3D3D;
+}
+#ill-btn{
+    background-color:#b76533;
+    box-shadow: 0px 0px 30px #FFF;
+}
+#ill-btn:hover{
+    box-shadow: 0px 0px 30px #3D3D3D;
+}
+#xd-btn{
+    background-color:#b233b7;
+    box-shadow: 0px 0px 30px #FFF;
+}
+#xd-btn:hover{
+    box-shadow: 0px 0px 30px #3D3D3D;
+}
+/* End Styling Buttons for Slider*/
+
+/* Start categories style for adobe*/
+.categories label
+{
+    padding:5px;
+    min-width: 95px;
+    
+}
+.categories a
+{
+    border-bottom: 1px dotted; 
+}
+.categories a:hover
+{
+    text-decoration: none;
+}
+.cat-1,
+.cat-2,
+.cat-3,
+.cat-4,
+.cat-5,
+.cat-6
+{
+    min-width:250px;
+    box-shadow: 0px 0px 10px #D1D1D1;
+    
+}
+.cat-1 .label-success
+{
+    background-color: #4D424A;
+    color:#00C8FC;
+    border:3px solid #00C8FC;
+    
+}
+.cat-2 .label-success
+{
+    background-color: #4D424A;
+    color:#FE761E;
+    border:3px solid #FE761E;
+    
+}
+.cat-3 .label-success
+{
+    background-color: #4D424A;
+    color:#A978B5;
+    border:3px solid #A978B5;
+    
+}
+.cat-4 .label-success
+{
+    background-color: #2E001D;
+    color:#FF2BC5;
+    border:3px solid #FF2BC5;
+}
+.cat-5 .label-success
+{
+    background-color: #0B3C37;
+    color:#3DAF9E;
+    border:3px solid #3DAF9E;
+}
+.cat-6 .label-success
+{
+    background-color: #FFFFFF;
+    color:#000000;
+    border:3px solid #2D2D2D;
+}
+.categories li
+{
+    padding:5px;
+}
+/* End  categories style for adobe*/
+
+/* Start Search Field section*/
+.search .form-group
+{
+    text-align: center;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:90px;
+    margin-bottom:90px;
+}
+.search .form-group .btn
+{
+    margin:10px;
+}
+/* End Search Field section*/
+
+/* Start Contact  section*/
+.contact
+{
+    margin-bottom:60px;
+}
+.contact-icons a
+{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+
+}
+.contact-icons li:hover
+{
+    background-color:#EEEEEE;
+}
+#fb-i:hover
+{
+    color:#3b5998;
+}
+#tw-i:hover
+{
+    color:#55acee;
+}
+#yt-i:hover
+{
+    color:#bb0000;
+}
+#insta-i:hover
+{
+    color:#e95950;
+}
+#link-i:hover
+{
+    color:#007bb5;
+}
+#snap-i:hover
+{
+    color:#fffc00;
+}
+#tumbler-i:hover
+{
+    color:#32506d;
+}
+#behance-i:hover
+{
+    color:#1769ff;
+}
+#rss-i:hover
+{
+    color:#ff6600;
+}
+#githup-i:hover
+{
+    color:#000000;
+}
+/* End Contact  section*/
+
+/** Start footer styling **/
+
+.footer
+{
+    background-color: #EEEEEE;
+}
+.footer p
+{
+    padding:5px;
+}
+/********************************************************/
+/********************************************************/
+/*********** Start Overriding Bootstrap Classes *********/
+/********************************************************/
+/********************************************************/
+
+/** Removing navbar styling Bootstrap **/
+.navbar-default{
+    background-color: #fff;
+    border-color: #fff;
+    padding: 15px;
+}
+/** Removing shadow from dropdown menu Bootstrap & other fixes**/
+.dropdown-menu{
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    min-width: 230px;
+}
+.navbar-right .dropdown-menu{
+    right: auto;
+    left: 0;
+}
+.dropdown-menu > li > a{
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+     transition: padding 0.5s ease;
+}
+.dropdown-menu > li > a:hover{
+    padding-left:25px;
+}
+/** Styling icons for the dropdown menu **/ 
+.menu-icon{
+    width:20px;
+    padding-right:5px;
+    padding-bottom:2px;
+}
+/** fixing the padding between the navbar links **/
+.navbar-nav > li > a{
+    padding-left: 35px;
+}
+/** fixing navbar link hover Bootstrap **/
+.navbar-default .navbar-nav > li > a:hover{
+    color:#0085bd;
+}
+/** Fixing Dropdown Menu border-top **/
+.navbar-nav > li > .dropdown-menu{
+    border-top: 3px solid #0085bd;
+}
+/** Fixing Slider shadow  **/
+.carousel-control.left, .carousel-control.right{
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+        max-height: 500px;
+        width:100%;
+}
+/** Fixing carousel caption Background **/
+.carousel-caption{
+    background-color:rgba(3,3,3,0.3);
+    bottom:70px;
+}
+/** Fixing Carousel sliding effect **/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+/** Fixing Active Indicator color **/
+.carousel-indicators .active{
+    background-color: #0085bd;
+}
+.carousel-indicators li{
+    border: 1px solid #EEE;
+    background-color:#D6F4FC;
+}
+
+/** Fixing search field height **/
+.input-group .form-control
+{
+    height: 45px;
+}
+/********************************************************/
+/********************************************************/
+/*********** End Overriding Bootstrap Classes *********/
+/********************************************************/
+/********************************************************/
